@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById("root")); // Create a root
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Cleaning_web">
     <App />
   </BrowserRouter>
 );

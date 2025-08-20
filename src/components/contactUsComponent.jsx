@@ -26,13 +26,13 @@ function contactUsComponent() {
               <Col md={6}>
                 <Row className="pr-10px">
                   <label htmlFor="">FULL NAME</label>
-                  <input type="text" placeholder="Enter your full name" />
+                  <input className="mt-2" type="text" placeholder="Enter your full name" />
                 </Row>
               </Col>
               <Col md={6}>
                 <Row>
                   <label htmlFor="">Email</label>
-                  <input type="text" placeholder="Enter your email" />
+                  <input className="mt-2" type="text" placeholder="Enter your email" />
                 </Row>
               </Col>
             </Row>
@@ -40,7 +40,7 @@ function contactUsComponent() {
               <Col>
                 <Row>
                   <label htmlFor="">PHONE NUMBER</label>
-                  <input
+                  <input className="mt-2"
                     type="number"
                     placeholder="
                 +123"
@@ -52,7 +52,7 @@ function contactUsComponent() {
               <Col>
                 <Row>
                   <label htmlFor="">MESSAGE</label>
-                  <textarea type="number" placeholder="Enter your message" />
+                  <textarea className="mt-2" type="number" placeholder="Enter your message" />
                 </Row>
               </Col>
             </Row>

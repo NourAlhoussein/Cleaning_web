@@ -9,7 +9,7 @@ function ClientComponent(props) {
       <Card.Header className="card-header-style">
         <Row>
           <Col className="flex justify-content-center" lg={3}>
-            <Image className="client-photo" src={client.photo} fluid/>
+            <Image className="client-photo" src={client.photo}/>
           </Col>
           <Col className="flex align-items-center justify-content-center main-color fs-4 mt-name-small" lg={7}>
             <div>{client.name}</div>
